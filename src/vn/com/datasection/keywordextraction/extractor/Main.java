@@ -19,7 +19,7 @@ public class Main {
 
 		Parser parser = new Parser();
 		Processor processor = new Processor(parser.fileContentParse(path
-				+ "000077.json"));
+				+ "000077" + ".json"));
 		processor.createChiSquareTable();
 		processor.printKeyword(15);
 	}
